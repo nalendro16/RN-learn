@@ -40,7 +40,7 @@ const App: () => React$Node = () => {
           )}
           <View style={styles.body}>
             <View style={styles.sectionContainer}>
-              <Text>Hello, React Native</Text>
+              <Text>React Native</Text>
             </View>
           </View>
         </ScrollView>
@@ -51,18 +51,24 @@ const App: () => React$Node = () => {
 
 const styles = StyleSheet.create({
   scrollView: {
-    backgroundColor: Colors.lighter,
+    backgroundColor: Colors.black,
   },
   engine: {
     position: 'absolute',
     right: 0,
   },
   body: {
+    paddingLeft: 20,
     backgroundColor: Colors.white,
   },
   sectionContainer: {
     marginTop: 32,
     paddingHorizontal: 24,
+    height: 28,
+    width: 140,
+    borderWidth: 3,
+    borderRadius: 10,
+    backgroundColor: 'aqua',
   },
   sectionTitle: {
     fontSize: 24,
