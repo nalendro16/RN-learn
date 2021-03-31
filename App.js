@@ -9,7 +9,7 @@ const App = () => {
 const StylingReactNativeComponent = () => {
   return (
     <View>
-      <Text style={style.text}>Styling Component</Text>
+      <Text style={style.text}>Style Component</Text>
       <View
         style={{
           width: 340,
